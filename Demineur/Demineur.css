@@ -1,0 +1,34 @@
+header {
+    text-align: center;
+    font-size: 200%;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.hidden {
+    background-color: white;
+    color: white;
+}
+
+.reveal {
+    color: black;
+}
+
+.dontreveal {
+    color: grey;
+    background-color: grey;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
